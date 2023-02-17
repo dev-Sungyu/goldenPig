@@ -1,0 +1,53 @@
+@charset "EUC-KR";
+container.wrapper {
+	padding-top: 60px !important;
+}
+
+header.header {
+	height: 60px;
+}
+
+main {
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+.banner {
+	height: 250px;
+	position: relative;
+}
+
+.home-container {
+	position: relative;
+    z-index: 10;
+    margin-top: -1rem;
+}
+
+
+.home-buttons {
+	border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    --bg-opacity: 1;
+    background-color: #fff;
+    background-color: rgba(255,255,255,var(--bg-opacity));
+    box-shadow: 0 1px 4px rgb(38 38 38 / 20%);
+}
+
+.home-buttons {
+	min-height: 30px;
+	position: relative;
+}
+
+.home-buttons div a button, svg {
+	height: 30px;
+	position: absolute;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
