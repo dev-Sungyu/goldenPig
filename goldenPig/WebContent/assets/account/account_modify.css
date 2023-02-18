@@ -1,0 +1,71 @@
+@charset "UTF-8";
+#wrap{
+	max-width: 600px!important;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+/* mediaquary 나중에 넣을꺼 */
+#wrap{
+	padding-left: 0px;
+    padding-right: 0px;
+}
+h1{
+	margin: 0px;
+	display: block;
+	padding-top: 28px;
+	padding-bottom: 20px;
+	font-size: 24px;
+	line-height: 2rem;
+	font-weight: 700;
+}
+/* mediaquary 나중에 넣을꺼 */
+h1 {
+	padding-top: 52px;
+    font-size: 28px;
+}
+h2{
+	margin-bottom: 0.75rem;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+}
+.board{
+	border-radius: 10px;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgba(230, 230, 230, var(--tw-border-opacity));
+    padding: 1.25rem;
+}
+/* mediaquary 나중에 넣을꺼 */
+.board{
+	padding: 20px 80px;
+}
+.board_name{
+	margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+	font-weight: 700;
+}
+#kakao_board{
+	display: flex;
+    align-items: center;
+	border-radius: 10px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(245, 245, 245, var(--tw-bg-opacity));
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
