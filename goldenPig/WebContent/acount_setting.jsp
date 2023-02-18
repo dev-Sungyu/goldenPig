@@ -38,9 +38,9 @@
 				<div>
 					<div>
 						<div>
-							<ul class="management-ul" id="management-basic" style="display: flex; justify-content: center">
+							<ul class="management-ul" id="management-basic" style="display: flex; height:50px; padding-top:10px; justify-content: center">
 								<li style="	display: inline-block; height: 100%; vertical-align: top; white-space: normal; 
-								font-size: 1rem; list-style:none; padding: 8px 20px!important;">기본설정</li>
+								font-size: 1rem; list-style:none; padding: 8px 20px!important; color: #0206af;">기본설정</li>
 								<li style="	display: inline-block; height: 100%; vertical-align: top; white-space: normal; 
 								font-size: 1rem; list-style:none; padding: 8px 20px!important;">알림설정</li>
 							</ul>
@@ -55,18 +55,18 @@
 							<h3 style="font-size: 24px; margin-top: 25px; margin-bottom: 12.5px">기본정보</h3>
 						</div>
 						<div>
-							<h3 style="margin-top: 2rem; margin-bottom: 1rem; font-size: 1rem">휴대폰 번호</h3>
+							<h3 style="margin-top: 2rem; margin-bottom: 1rem; font-size: 1rem !important">휴대폰 번호</h3>
 						</div>
 						<p>
-							<span>01057587653</span>
+							<span style="letter-spacing: .025em; font-size: 1.125rem">01057587653</span>
 						</p>
 						<div>
-							<h3>이메일</h3>
+							<h3 style="margin-top: 2rem; margin-bottom: 1rem; font-size: 1rem !important">이메일</h3>
 						</div>
 						<p>
-							<span>tjfdhs364@naver.com</span>
+							<span style="letter-spacing: .025em; font-size: 1.125rem">tjfdhs364@naver.com</span>
 						</p>
-						계정 정보 변경
+						<div id="account-change">계정 정보 변경</div>
 					</div>
 				</div>
 			</div>
