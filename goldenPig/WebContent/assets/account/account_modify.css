@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body{
+	letter-spacing: -2px;
+}
+
 #wrap{
 	max-width: 600px!important;
 	width: 100%;
@@ -33,8 +37,10 @@ h2{
 	border-radius: 10px;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(230, 230, 230, var(--tw-border-opacity));
     padding: 1.25rem;
+    border: solid;
+    border-width: 2px;
+    border-color: rgba(230, 230, 230, var(--tw-border-opacity));
 }
 /* mediaquary 나중에 넣을꺼 */
 .board{
@@ -59,12 +65,61 @@ h2{
     font-size: 1rem;
     line-height: 1.5rem;
 }
+.change_button{
+	width: auto;
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    cursor: pointer;
+}
 
-
-
-
-
-
+button.all_button{
+	font-size: 1rem;
+    line-height: 1.5rem;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border-width: 1px;
+    font-weight: 500;
+    background-color: white;
+    cursor: pointer;
+}
+#password{
+	--tw-border-opacity: 1;
+	border-color: rgba(86, 130, 239, var(--tw-border-opacity));
+	--tw-text-opacity: 1;
+	color: rgba(2, 6, 175, var(--tw-text-opacity));
+	font-size: 1rem; 
+	line-height: 1.5rem; 
+	height: 48px; 
+	margin-right: 0.25rem;
+	width: 296px;
+	cursor: pointer;
+}
+#log_out{
+	border-color: transparent;
+    --tw-bg-opacity: 1;
+    background-color: rgba(2, 6, 175, var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    font-size: 1rem;
+    line-height: 1.5rem;
+    height: 48px;
+    width: 296px;
+    cursor: pointer;
+}
+a{
+	--tw-text-opacity: 1;
+    color: rgba(182, 190, 204, var(--tw-text-opacity));
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    align-items: center;
+    display: inline-flex;
+    text-decoration: inherit;
+}
 
 
 
