@@ -36,7 +36,6 @@
 	
 	table th, table td{
 		text-align: left;
-		width : 20%;
 		font-size: 20px;
 		padding-left: 10px;
 	}

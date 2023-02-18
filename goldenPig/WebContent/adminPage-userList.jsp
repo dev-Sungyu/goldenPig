@@ -36,7 +36,6 @@
 	
 	table th, table td{
 		text-align: left;
-		width : 20%;
 		font-size: 20px;
 		padding-left: 10px;
 	}
@@ -145,16 +144,8 @@
 	}
 	
 	.info-table .modify-button {
+		width: 40px;
 		font-weight: 500;
-	}
-	
-	.modify-button button {
-		border: none;
-		background: none;
-		font-size: inherit;
-		font-family: 'Noto Sans KR', sans-serif;
-		font-weight: 500;
-		margin-left: 5px;
 	}
 	
 </style>
@@ -233,6 +224,7 @@
 											<a href="<!-- 상세보기 페이지 -->">이메일</a>
 										</th>
 										<th>닉네임</th>
+										<th>핸드폰 번호</th>
 										<th>가입 날짜</th>
 										<th></th>
 									</tr>
@@ -243,10 +235,10 @@
 										<a href="<!-- 상세보기 페이지 -->">ljw120@naver.com</a>
 									</td>
 									<td>멍충코딩</td>
+									<td>010-1234-1234</td>
 									<td>2023.01.11</td>
 									<td class="modify-button">
 										<a href="<!-- 수정 페이지 -->">수정</a>
-										<button id="notice-delete">삭제</button>
 									</td>
 								</tr>
 							</table>
