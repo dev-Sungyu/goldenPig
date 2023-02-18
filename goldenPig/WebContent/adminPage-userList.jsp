@@ -110,11 +110,11 @@
 		margin: 0 18px 0px 46px;;	
 	} 
 
-	.board-info-box-layout{
+	.member-info-box-layout{
 		margin : 20px;
 	}
 	
-	.board-info-box {
+	.member-info-box {
 		border :0.0625rem solid #f2f2f2;
 		border-radius: 10px;
 		background : #fff;
@@ -131,14 +131,32 @@
 		padding: 20px;
 	}
 	
-	.board-info-title-box {
+	.member-info-title-box {
 		padding: 20px 27px 0;
 	}
 	
-	.board-info-title-box {
+	.member-info-title-box {
 		font-size : 30px;
 		font-weight: bold;
 	}
+	
+	.modify-button {
+		padding-right: 20px;
+	}
+	
+	.info-table .modify-button {
+		font-weight: 500;
+	}
+	
+	.modify-button button {
+		border: none;
+		background: none;
+		font-size: inherit;
+		font-family: 'Noto Sans KR', sans-serif;
+		font-weight: 500;
+		margin-left: 5px;
+	}
+	
 </style>
 </head>
 <body>
@@ -170,7 +188,7 @@
 						</li>
 						<li class="menu">
 							<div>
-								<img src= "assets/img/_icon.png" class="icon">
+								<img src= "assets/img/user_icon.png" class="icon">
 							</div>	
 							<a>	
 								<span>회원정보 관리</span>
@@ -201,9 +219,9 @@
 				<div class="info-title-box">
 					
 				</div>
-				<section class="board-info-box-layout">	
-					<div class="board-info-box">
-						<div class="board-info-title-box">
+				<section class="member-info-box-layout">	
+					<div class="member-info-box">
+						<div class="member-info-title-box">
 							<span>회원정보 목록</span>
 						</div>
 						<div class="info-table">
@@ -211,29 +229,25 @@
 								<thead>
 									<tr>	
 										<th>No</th>
-										<th>카테고리</th>
 										<th>
-											<a href="<!-- 상세보기 페이지 -->">아이디</a>
+											<a href="<!-- 상세보기 페이지 -->">이메일</a>
 										</th>
+										<th>닉네임</th>
 										<th>가입 날짜</th>
-										<th>작성 날짜</th>
+										<th></th>
 									</tr>
 								</thead>		
 								<tr>
 									<td>1</td>
-									<td>저축 게시판</td>
 									<td>
-										<a href="<!-- 상세보기 페이지 -->">적금의 신의 팁을 알려드립니다.</a>
+										<a href="<!-- 상세보기 페이지 -->">ljw120@naver.com</a>
 									</td>
-									<td>임**</td>
+									<td>멍충코딩</td>
 									<td>2023.01.11</td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>자유 게시판</td>
-									<td>언제 돈 모아요..?</td>
-									<td>이**</td>
-									<td>2023.02.11</td>
+									<td class="modify-button">
+										<a href="<!-- 수정 페이지 -->">수정</a>
+										<button id="notice-delete">삭제</button>
+									</td>
 								</tr>
 							</table>
 						</div>
