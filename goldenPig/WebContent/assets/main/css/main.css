@@ -37,13 +37,18 @@ main {
 }
 
 .home-buttons {
-	min-height: 30px;
+	height: 78px;
+	width: 925px;
 	position: relative;
 }
 
 .home-buttons div a button, svg {
 	height: 30px;
 	position: absolute;
+}
+
+.home-buttons div a button {
+	background: none;
 }
 
 button, input, select, textarea {
