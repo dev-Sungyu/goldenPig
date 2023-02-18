@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>관리자 페이지</title>
+<title>관리자 페이지- 공지사항 작성</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
@@ -15,8 +15,8 @@
 	}
 
 	a {
-		color : inherit;
 		text-decoration: none;
+		color : inherit;
 		cursor: pointer;
 	}
 	
@@ -41,7 +41,6 @@
 	}
 	
 	table td {
-		white-space: nowrap;
 		font-weight: 300;
 	}
 	
@@ -80,7 +79,6 @@
 	 	margin: 45px;
 	 }
 	 
-	 
 	 .menu-title {
 	 	display: flex;
     	justify-content: space-between;
@@ -111,11 +109,11 @@
 		margin: 0 18px 0px 46px;;	
 	} 
 
-	.board-info-box-layout{
-		margin : 20px;
+	.notice-info-box-layout{
+		margin: 20px 300px;
 	}
 	
-	.board-info-box {
+	.notice-info-box {
 		border :0.0625rem solid #f2f2f2;
 		border-radius: 10px;
 		background : #fff;
@@ -127,56 +125,96 @@
 		background: #ca3e47;
 	}
 	
-	.info-table{
+	.notice-info{
 		margin: 0 auto;
 		padding: 20px;
 	}
 	
-	.board-info-title-box {
-		padding: 20px 27px 0;
+	.notice-info-title-box {
+		width: 100%;
+	    margin: 25px;
+	    text-align: center;
 	}
 	
-	.board-info-title-box {
+	.notice-info-title-box span {
 		font-size : 30px;
-		font-weight: bold;
 	}
 	
-	.board-title-box-flex {
-		display: flex;
-		justify-content: space-between;
+	.notice-info-form {
+		margin : 20px;
 	}
 	
-	.notice-write-button{
-		position: relative;
-		padding: 20px 27px 0;
+	.notice-info {
+		border-radius: 10px;
+		background-color: #80ffff;
 	}
-	
-	.notice-write-button .icon{
-		position: absolute;
-	    filter: none;
-	    left: 0px;
-	    padding: 0px;
-	    width: 23px;
-	}
-	
-	.modify-button {
-		padding-right: 20px;
-	}
-	
-	.info-table .modify-button {
-		width: 10px;
-		font-weight: 500;
-	}
-	
-	.modify-button button {
-		border: none;
-		background: none;
-		font-size: inherit;
+
+	input {
 		font-family: 'Noto Sans KR', sans-serif;
-		font-weight: 500;
-		margin-left: 5px;
+		font-size : 20px;
 	}
 	
+	input::placeholder {
+		font-size : 20px;
+	}
+	
+	textarea.content {
+		outline: none;
+		border : none;
+		font-family: 'Noto Sans KR', sans-serif;
+		padding: 15px 20px;
+		resize: none;
+		height: 400px;
+	}
+	
+	.form-input-box {
+		width: 100%;
+		font-size : 24px;
+	}
+	
+	.form-input-box input {
+		outline: none;
+		border: none;
+		height : 40px;
+		width: 57rem;
+		padding: 0px 13px;
+	}
+	
+	.form-title {
+		margin-bottom: 10px;
+	}
+	
+	.form-title span {
+		margin-left: 10px;
+		font-size : 24px;
+		font-weight: 500;
+	}
+	
+	.form-margin {
+		margin-top : 20px;
+	}
+	
+	.form-input-box .content {
+		width: 56rem;
+		font-size: 20px;
+	}
+	
+	.form-button-box {
+		margin : 10px 0;
+	}
+	
+	button {
+		cursor : pointer;
+		font-family: 'Noto Sans KR', sans-serif;
+		background-color: #a8ecec;
+		border: none;
+	}
+	
+	.form-button-box button{
+		width: 100%;
+		height: 50px;
+		font-size : 20px;
+	}
 </style>
 </head>
 <body>
@@ -236,57 +274,33 @@
 			<!-- 사이드 바 끝-->
 			<!-- 목록 -->
 			<div class="container">
-				<div class="info-title-box"></div>
-				<section class="board-info-box-layout">	
-					<div class="board-info-box">
-						<div class="board-title-box-flex">
-							<div class="board-info-title-box">
-								<span>공지사항 목록</span>
-							</div>
-							<div class="notice-write-button">
-								<a>
-									<img src="assets/img/write_icon.png" class="icon">
-									<span>공지사항 작성</span>
-								</a>
-							</div>
+				<div class="info-title-box">
+					
+				</div>
+				<section class="notice-info-box-layout">	
+					<div class="notice-info-box">
+						<div class="notice-info-title-box">
+							<span>공지사항 작성</span>
 						</div>
-						<div class="info-table">
-							<table>
-								<thead>
-									<tr>	
-										<th>No</th>
-										<th>제목</th>
-										<th>작성 날짜</th>
-										<th>수정 날짜</th> 
-										<th><!-- 버튼 넣을 칸 이라서 빈공간으로 --></th> 
-									</tr>
-								</thead>		
-								<tr>
-									<td>1</td>
-									<td>
-										<a>[공지] 서비스 시작</a>
-									</td>
-									<td>2023.01.11</td>
-									<td>2023.01.11</td>
-									<td class="modify-button">
-										<a href="<!-- 수정 페이지 -->">수정</a>
-										<button id="notice-delete">삭제</button>
-									</td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>
-										<a>[공지] 서비스 시작</a>
-									</td>
-									<td>2023.01.11</td>
-									<td>2023.01.11</td>
-									<td class="modify-button">
-										<a href="<!-- 수정 페이지 -->">수정</a>
-										<button id="notice-delete">삭제</button>
-									</td>
-								</tr>
-							</table>
-						</div>
+						<form action="" class="notice-info-form">
+							<div class="notice-info">
+								<div class="form-title">
+									<span>제목</span>
+								</div>
+								<div class="form-input-box">
+									<input type="text" class="title" placeholder="제목을 입력해주세요.">
+								</div>
+								<div class="form-title form-margin">
+									<span>내용</span>
+								</div>
+								<div class="form-input-box">
+									<textarea class="content" spellcheck="false" placeholder="내용을 입력해주세요."></textarea>
+								</div>
+								<div class="form-button-box">
+									<button>등록</button>
+								</div>
+							</div>
+						</form>
 					</div>
 				</section>	
 			</div>	
