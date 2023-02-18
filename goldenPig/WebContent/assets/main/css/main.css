@@ -1,5 +1,10 @@
 @charset "EUC-KR";
 
+body {
+	/* background-color: #e8f0f9; */
+    text-shadow: none;
+}
+
 container.wrapper {
 	padding-top: 60px !important;
 }
@@ -24,6 +29,7 @@ main {
 	margin-top: -1rem;
 	width: 925px;
 	margin: 0 auto;
+	color: #333;
 }
 
 .home-buttons {
@@ -118,3 +124,46 @@ button, input, select, textarea {
 	margin: 0;
 	margin-top: 40px;
 }
+
+.home-section-title {
+	padding-top: 1.25rem;
+	margin-top: 12.5px;
+	margin-bottom: 18px; 
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.3;
+	display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.home-section-subtitle {
+	margin: 0;
+	margin-top: -12px;
+	margin-bottom: 1.25rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.3;
+    color: #a9afb3;
+}
+.home-section-categoryCards-wrapper {
+	text-align: center;
+}
+
+.home-section-categoryCard {
+	height: 134px;
+	padding: 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid #e3e3e3;
+}
+
+
+
+
+
+
+
+
+

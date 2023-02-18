@@ -25,7 +25,7 @@
 
 		<main>
 			<header class="banner"></header>
-			<section class="home-container">
+			<article class="home-container">
 				<section class="home-buttons columns is-relative">
 					<div class="home-button-wrapper column is-one-quarter">
 						<a>
@@ -62,19 +62,90 @@
 						</a>
 					</div>
 				</section>
-				
+
 				<section class="expert-section-wrapper">
-					<a href="/extras/about-membership" class="tw-flex tw-justify-center" style="background:#F3F5F9;border-radius:8px;">
-						<img src="https://media.a-ha.io/aha-qna/assets/web/membership/band/membership_main_desktop.png" class="membership-desktop-img is-hidden-touch">
-						<img src="https://media.a-ha.io/aha-qna/assets/web/membership/band/membership_main_mobile.png" class="membership-mobile-img is-hidden-desktop">
+					<a href="/extras/about-membership"
+						class="tw-flex tw-justify-center"
+						style="background: #F3F5F9; border-radius: 8px;"> <img
+						src="https://media.a-ha.io/aha-qna/assets/web/membership/band/membership_main_desktop.png"
+						class="membership-desktop-img is-hidden-touch"> <img
+						src="https://media.a-ha.io/aha-qna/assets/web/membership/band/membership_main_mobile.png"
+						class="membership-mobile-img is-hidden-desktop">
 					</a>
 				</section>
-				
+
 				<section class="home-section">
-					<h4 class=""></h4>
-					<h5 class=""></h5>
+					<h4 class="home-section-title title is-3">전문 Q&A</h4>
+					<h5 class="home-section-subtitle subtitle is-5">전문가가 직접 답변을
+						남겨줘요</h5>
+					<div class="home-section-categoryCards tile is-ancestor">
+						<div class="home-section-categoryCards-wrapper tile is-parent">
+							<article class="home-section-categoryCard tile is-child">
+								<div class="">
+									<a class="cardCategory"> </a> <span>연말정산</span>
+								</div>
+							</article>
+							<article class="home-section-categoryCard tile is-child">
+								<div class="">
+									<a class="cardCategory"> </a> <span>이자</span>
+								</div>
+							</article>
+							<article class="home-section-categoryCard tile is-child">
+								<div class="">
+									<a class="cardCategory"> </a> <span>금리</span>
+								</div>
+							</article>
+							<article class="home-section-categoryCard tile is-child">
+								<div class="">
+									<a class="cardCategory"> </a> <span>의료</span>
+								</div>
+							</article>
+							<article class="home-section-categoryCard tile is-child">
+								<div class="">
+									<a class="cardCategory"> </a> <span>보험</span>
+								</div>
+							</article>
+						</div>
+
+
+					</div>
 				</section>
-			</section>
+				<section class="home-section">
+					<h4 class="home-section-title title is-3">오픈 Q&A</h4>
+					<h5 class="home-section-subtitle subtitle is-5">우리들의 지식을 자유롭게 나눠요</h5>
+					<div class="home-section-categoryCards tile is-ancestor">
+						<div class="home-section-categoryCards-wrapper tile is-parent">
+							<article class="home-section-categoryCard tile is-child">
+								<div class="">
+									<a class="cardCategory"> </a> <span>생활꿀팁</span>
+								</div>
+							</article>
+							<article class="home-section-categoryCard tile is-child">
+								<div class="">
+									<a class="cardCategory"> </a> <span>청소</span>
+								</div>
+							</article>
+							<article class="home-section-categoryCard tile is-child">
+								<div class="">
+									<a class="cardCategory"> </a> <span>세탁</span>
+								</div>
+							</article>
+							<article class="home-section-categoryCard tile is-child">
+								<div class="">
+									<a class="cardCategory"> </a> <span>자동차</span>
+								</div>
+							</article>
+							<article class="home-section-categoryCard tile is-child">
+								<div class="">
+									<a class="cardCategory"> </a> <span>등산</span>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+				<!-- 아래쪽 내용들은 다 home-section으로 묶임 -->
+				<section class="home-section"></section>
+			</article>
 		</main>
 
 		<footer></footer>
