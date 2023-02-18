@@ -33,29 +33,26 @@
 		</section>
 		<section>
 			<h2 class ="board_name">이메일</h2>
-			<div class="board">
-				<span>tjfdhs364@naver.com</span>
-				<button>변경</button>
+			<div class="board" style="justify-content: space-between; display: flex">
+				<span style="padding-top: 12px; letter-spacing: 0">tjfdhs364@naver.com</span>
+				<button class="change_button all_button" style="border-color: rgba(230, 230, 230, var(--tw-border-opacity))">변경</button>
 			</div>
 		</section>
 		<section>
 			<h2 class ="board_name">휴대폰 번호</h2>
-			<div class="board">
-				<span>01057587653</span>
-				<button>변경</button>
+			<div class="board" style="justify-content: space-between; display: flex">
+				<span style="padding-top: 12px; letter-spacing: 0">01057587653</span>
+				<button class="change_button all_button" style="border-color: rgba(230, 230, 230, var(--tw-border-opacity))">변경</button>
 			</div>
 		</section>
-		<section>
-			<button>비밀번호 재설정</button>
-			<button>로그아웃</button>
+		<section style="margin-top: 48px; display: flex">
+			<button class="all_button" id="password">비밀번호 재설정</button>
+			<button class="all_button" id="log_out">로그아웃</button>
 		</section>
-		<section>
-			<a>
-				<svg>
-					<use>
-					</use>
-				</svg>
-				" 회원 탈퇴 "
+		<section style="margin-top: 20px; text-align: right">
+			<a style="margin-right: 0.25rem; display: inline; vertical-align: middle; cursor: pointer">
+				<img alt="" src="minus1.png">
+				회원 탈퇴
 			</a>
 		</section>
 	</div>
