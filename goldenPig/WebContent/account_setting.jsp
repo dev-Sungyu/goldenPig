@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet" href="assets/account/acount_setting.css">
+<title>계정 관리</title>
+<link rel="stylesheet" href="assets/account/account_setting.css">
 <style>
 @font-face {
     font-family: 'Pretendard-Regular';
@@ -40,9 +40,9 @@
 						<div>
 							<ul class="management-ul" id="management-basic" style="display: flex; height:50px; padding-top:10px; justify-content: center">
 								<li style="	display: inline-block; height: 100%; vertical-align: top; white-space: normal; 
-								font-size: 1rem; list-style:none; padding: 8px 20px!important; color: #0206af;">기본설정</li>
+								font-size: 1rem; list-style:none; padding: 8px 20px!important; color: #0206af; cursor: pointer">기본설정</li>
 								<li style="	display: inline-block; height: 100%; vertical-align: top; white-space: normal; 
-								font-size: 1rem; list-style:none; padding: 8px 20px!important;">알림설정</li>
+								font-size: 1rem; list-style:none; padding: 8px 20px!important;  cursor: pointer">알림설정</li>
 							</ul>
 						</div>
 					</div>
@@ -66,7 +66,7 @@
 						<p>
 							<span style="letter-spacing: .025em; font-size: 1.125rem">tjfdhs364@naver.com</span>
 						</p>
-						<div id="account-change">계정 정보 변경</div>
+						<div id="account-change" style="cursor: pointer">계정 정보 변경</div>
 					</div>
 				</div>
 			</div>
