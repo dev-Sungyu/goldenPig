@@ -1,11 +1,10 @@
 *.class
-
 .metadata/
-
-/Servers
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+
+Servers/
 
 # Package Files #
 *.jar
