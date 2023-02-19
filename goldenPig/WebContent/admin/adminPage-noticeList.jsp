@@ -124,8 +124,12 @@
 									<td><a>[공지] 서비스 시작</a></td>
 									<td>2023.01.11</td>
 									<td>2023.01.11</td>
-									<td class="modify-button"><a href="<!-- 수정 페이지 -->">수정</a>
-										<button id="notice-delete">삭제</button></td>
+									<td class="modify-button">
+										<a href="<!-- 수정 페이지 -->">
+											수정
+										</a>
+										<button id="notice-delete">삭제</button>
+									</td>
 								</tr>
 								<tr>
 									<td>2</td>
