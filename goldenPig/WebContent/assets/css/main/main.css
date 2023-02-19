@@ -1,7 +1,7 @@
 @charset "EUC-KR";
 
 body {
-	/* background-color: #e8f0f9; */
+	background-color: #f8f8f8;
     text-shadow: none;
 }
 
@@ -30,6 +30,7 @@ main {
 	width: 925px;
 	margin: 0 auto;
 	color: #333;
+	background-color: #e8f0f9;
 }
 
 .home-buttons {
@@ -153,14 +154,20 @@ button, input, select, textarea {
 }
 
 .home-section-categoryCard {
-	height: 134px;
+	height: 150px;
 	padding: 0.5rem;
     box-sizing: border-box;
+}
+
+.home-section-categoryCard div {
+	height: 134px;
     border: 1px solid #e3e3e3;
 }
 
-
-
+.categoryCard img{
+	width: 40px;
+	height: 40px;
+}
 
 
 

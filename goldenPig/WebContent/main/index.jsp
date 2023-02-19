@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<link rel="stylesheet" href="../assets/main/css/bulma.css">
-<link rel="stylesheet" href="../assets/main/css/main.css">
+<link rel="stylesheet" href="../assets/css/main/bulma.css">
+<link rel="stylesheet" href="../assets/css/main/main.css">
 <title>메인 페이지</title>
 
 </head>
@@ -82,27 +82,30 @@
 						<div class="home-section-categoryCards-wrapper tile is-parent">
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="cardCategory"> </a> <span>연말정산</span>
+									<a class="categoryCard">
+										<img alt="" src="../assets/img/main/5310117_coin_dollar_money_icon.svg">
+									</a>
+									<span>연말정산</span>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="cardCategory"> </a> <span>이자</span>
+									<a class="categoryCard"> </a> <span>이자</span>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="cardCategory"> </a> <span>금리</span>
+									<a class="categoryCard"> </a> <span>금리</span>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="cardCategory"> </a> <span>의료</span>
+									<a class="categoryCard"> </a> <span>의료</span>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="cardCategory"> </a> <span>보험</span>
+									<a class="categoryCard"> </a> <span>보험</span>
 								</div>
 							</article>
 						</div>
@@ -117,27 +120,27 @@
 						<div class="home-section-categoryCards-wrapper tile is-parent">
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="cardCategory"> </a> <span>생활꿀팁</span>
+									<a class="categoryCard"> </a> <span>생활꿀팁</span>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="cardCategory"> </a> <span>청소</span>
+									<a class="categoryCard"> </a> <span>청소</span>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="cardCategory"> </a> <span>세탁</span>
+									<a class="categoryCard"> </a> <span>세탁</span>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="cardCategory"> </a> <span>자동차</span>
+									<a class="categoryCard"> </a> <span>자동차</span>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="cardCategory"> </a> <span>등산</span>
+									<a class="categoryCard"> </a> <span>등산</span>
 								</div>
 							</article>
 						</div>
