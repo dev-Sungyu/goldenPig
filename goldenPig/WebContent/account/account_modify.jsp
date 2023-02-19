@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>회원 정보 수정</title>
-<link rel="stylesheet" href="assets/account/account_modify.css">
+<link rel="stylesheet" href="../assets/account/account_modify.css">
 <style>
 @font-face {
     font-family: 'Pretendard-Regular';
@@ -51,7 +51,7 @@
 		</section>
 		<section style="margin-top: 20px; text-align: right">
 			<a style="margin-right: 0.25rem; display: inline; vertical-align: middle; cursor: pointer">
-				<img alt="" src="minus1.png">
+				<img alt="" src="../assets/img/minus.png" style="position: absolute">
 				회원 탈퇴
 			</a>
 		</section>
