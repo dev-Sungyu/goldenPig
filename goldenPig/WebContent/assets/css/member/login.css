@@ -8,6 +8,11 @@
 }
 
 body {
+    --tw-text-opacity: 1;
+    color: rgba(28, 26, 24, var(--tw-text-opacity));
+}
+
+body {
     font-family: "Pretendard","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1rem;
     line-height: 1.6;
@@ -159,16 +164,16 @@ div {
     justify-content: center;
 }
 
-.layoutDefault__main {
+.layoutDefault_view {
     height: 100%;
     width: 100%;
 }
 
-.loginEmail[data-v-9665b8e0] {
+.loginEmail {
     height: 100%;
 }
 
-.loginEmail__form {
+.loginEmail_form {
     display: flex;
     height: 100%;
     flex-direction: column;
@@ -201,10 +206,10 @@ div {
 }
 
 
-.theScreen__headerButton.-left {
+.theScreen_headerButton.-left {
     left: 0px;
 }
-.theScreen__headerButton {
+.theScreen_headerButton {
     position: absolute;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -212,7 +217,7 @@ div {
     height: 44px;
 }
 
-.theScreen__headerLogo {
+.theScreen_headerLogo {
     display: block;
     display: flex;
     align-items: center;
@@ -224,7 +229,7 @@ a {
     text-decoration: inherit;
 }
 
-.theScreen__body {
+.theScreen_body {
     height: 100%;
     overflow: auto;
     min-height: 344px;
@@ -284,7 +289,7 @@ h1 {
     bottom: 2px;
 }
 
-.theLoginEmail__bodyInput {
+.theLoginEmail_bodyInput {
     margin-top: 44px;
     margin-bottom: 18px;
 }
@@ -294,7 +299,7 @@ h1 {
     padding-top: 0.5rem;
 }
 
-.TextField__label {
+.TextField_label {
     display: block;
     text-align: left;
     font-size: 0.75rem;
@@ -308,18 +313,14 @@ label {
     cursor: default;
 }
 
-.TextField__body {
+.TextField_body {
     position: relative;
     margin-bottom: 0.75rem;
     border-bottom-width: 1px;
     padding-bottom: 0.5rem;
 }
 
-.TextField__bodyInput[type=password] {
-    letter-spacing: 4px!important;
-}
-
-.TextField__bodyInput {
+.TextField_bodyInput {
     display: block;
     width: 100%;
     font-size: 1.125rem;
@@ -329,7 +330,7 @@ label {
     height: 28px;
 }
 
-.TextField__bodyButton {
+.TextField_bodyButton {
     position: absolute;
     top: 0.25rem;
     right: 0px;
@@ -344,12 +345,12 @@ button, [type='button'], [type='submit'] {
 }
 
 /* 비밀번호 표시 이미지 */
-.TextField__bodyButton.-off .icon[data-v-12339dd9] {
+.TextField_bodyButton.-off .icon[data-v-12339dd9] {
     width: 22px;
     height: 15px;
 }
 
-.TextField__bodyButton .icon[data-v-12339dd9] {
+.TextField_bodyButton .icon[data-v-12339dd9] {
     width: 22px;
     height: 20px;
 }
@@ -359,7 +360,7 @@ button, [type='button'], [type='submit'] {
 }
 
 /*  */
-.theScreen__footer {
+.theScreen_footer {
     position: relative;
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity));

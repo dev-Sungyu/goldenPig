@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>아하(Aha) 인증센터</title>
+<title>Insert title here</title>
 </head>
 <body>
 

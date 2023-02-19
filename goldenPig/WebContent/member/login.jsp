@@ -5,15 +5,15 @@
 <head>
 <meta charset="UTF-8">
 <title>아하(Aha) 인증센터</title>
-<link rel="stylesheet" href="/goldenPig/WebContent/assets/css/login.css">
+<link rel="stylesheet" href="../assets/css/member/login.css">
 </head>
 <body>
 	<div id="wrap">
 		<div id="layout">
 			<div class="layoutDefault">
-				<main class="layoutDefualt_main">
+				<main class="layoutDefault_view">
 					<div class="loginEmail">
-						<form class="loginEail_form w-full">
+						<form class="loginEmail_form w-full">
 							<div class="theScreen">
 								<header class="theScreen_header">
 									<button type="button" class="theScreen_headerButton -left">
@@ -28,17 +28,17 @@
 										<span>이메일 로그인</span>
 									</h1>
 									<div class="theLoginEamil_body">
-										<div class="theLoginEamil_bodyInput">
+										<div class="theLoginEmail_bodyInput">
 											<div class="TextField">
 												<label class="TextField_label">이메일</label>
 												<div class="TextField_body">
-													<input type="text" placeholder="이메일을 입력해주세요" calss="TextField_bodyInpt" autocomplete value>
+													<input type="text" placeholder="이메일을 입력해주세요" class="TextField_bodyInput" autocomplete value>
 												</div>
 											</div>
 											<div class="TextField">
 												<label class="TextField_label">비밀번호</label>
 												<div class="TextField_body">
-													<input type="password" placeholder="이메일을 입력해주세요" calss="TextField_bodyInpt" autocomplete value>
+													<input type="password" placeholder="이메일을 입력해주세요" class="TextField_bodyInput" autocomplete value>
 													<button type="button" tabindex="-1" class="TextField_bodyButton -off">
 														<img><p>눈알 표시</p>
 													</button>
@@ -48,7 +48,7 @@
 									</div>
 								</div>
 								<footer class="theScreen_footer">
-									<button type="submit" class="button -large w-full -primary - filled">로그인</button>
+									<button type="submit" class="Button -large w-full -primary -filled">로그인</button>
 									<a href="https://auth.a-ha.io/password">
 										<button class="Button mt-2 -large w-full -transparent">비밀번호를 재설정 하시겠어요?</button>
 									</a>
