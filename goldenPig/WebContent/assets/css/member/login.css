@@ -164,9 +164,23 @@ div {
     justify-content: center;
 }
 
+/* @media (min-width: 768px) */
+.layoutDefault {
+    padding: 152px 0 80px;
+    background: #f3f5f9;
+}
+
 .layoutDefault_view {
     height: 100%;
     width: 100%;
+}
+
+/* @media (min-width: 768px) */
+.layoutDefault_view {
+    margin: auto;
+    border-radius: 0.25rem;
+    max-width: 464px;
+    max-height: 650px;
 }
 
 .loginEmail {
@@ -192,6 +206,12 @@ div {
     background: #fff;
 }
 
+/* @media (min-width: 768px) */
+.theScreen {
+    position: relative;
+    border-width: 1px;
+}
+
 .theScreen_header {
     z-index: 10;
     display: flex;
@@ -205,16 +225,29 @@ div {
     box-shadow: 0 1px 4px rgb(38 38 38 / 20%);
 }
 
+/* @media (min-width: 768px) */
+.theScreen_header {
+    position: absolute;
+    --tw-shadow: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    top: -68px;
+}
 
 .theScreen_headerButton.-left {
     left: 0px;
 }
+
 .theScreen_headerButton {
     position: absolute;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     line-height: 1;
     height: 44px;
+}
+
+/* @media (min-width: 768px) */
+.theScreen_headerButton.-left {
+    display: none;
 }
 
 .theScreen_headerLogo {
@@ -238,6 +271,12 @@ a {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+/* @media (min-width: 768px) */
+.theScreen_body {
+    padding-top: 40px;
+}
+
 
 .px-5 {
     padding-left: 1.25rem;

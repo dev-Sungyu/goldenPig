@@ -20,7 +20,7 @@
 										<img src="">
 									</button>
 									<a class="theScreen_headerLoga">
-										<img>aha
+										<img src="../assets/img/logo.png">
 									</a>
 								</header>
 								<div class="theScreen_body px-5">
@@ -40,7 +40,7 @@
 												<div class="TextField_body">
 													<input type="password" placeholder="이메일을 입력해주세요" class="TextField_bodyInput" autocomplete value>
 													<button type="button" tabindex="-1" class="TextField_bodyButton -off">
-														<img><p>눈알 표시</p>
+														<img src="../assets/img/member/passwordEye.PNG">
 													</button>
 												</div>
 											</div>
