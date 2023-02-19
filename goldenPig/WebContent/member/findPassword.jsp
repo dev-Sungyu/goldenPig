@@ -16,7 +16,7 @@
 						<div class="theScreen">
 							<header class="theScreen_header">
 								<button type="button" class="theScreen_headerButton -left">
-									<img src="../assets/img/logo.png">
+									<img src="../img.png">svg
 								</button>
 								<a href="https://www.a-ha.io/" class="theScreen_headerLogo">
 									<img>icon svg
