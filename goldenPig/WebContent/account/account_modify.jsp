@@ -51,7 +51,7 @@
 		</section>
 		<section style="margin-top: 20px; text-align: right">
 			<a style="margin-right: 0.25rem; display: inline; vertical-align: middle; cursor: pointer">
-				<img alt="" src="../assets/img/minus1.png">
+				<img alt="" src="../assets/img/minus.png" style="position: absolute">
 				회원 탈퇴
 			</a>
 		</section>
